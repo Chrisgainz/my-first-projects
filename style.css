@@ -19,7 +19,6 @@ body {
 
     display: flex;
     flex-direction: row;
-    opacity: 0.8;
     align-items: center;
     justify-content: space-between;
     width: 1000px;
@@ -64,8 +63,7 @@ h1 {
 
 }
 
-h2,
-h3 {
+h2,h3 {
 
     color: black;
     text-decoration: underline;
@@ -97,7 +95,7 @@ h3 {
 
     transform: scale(1.05);
     opacity: 0.9;
-    box-shadow: 0 0 10px 10px rgb(26, 189, 12);
+    box-shadow: 0 0 5px 5px rgba(29, 214, 12, 0.5);
     border: none;
     cursor: pointer;
 
@@ -137,7 +135,7 @@ a:active {
 .profile-image:hover {
 
     transform: scale(1.05);
-    opacity: 0.9;
+    opacity: 1.0;
     cursor: pointer;
 
 }
@@ -152,4 +150,9 @@ a:active {
 
     transform: scale(1);
 
+}
+
+#stats {
+
+    opacity: 0.8;
 }
